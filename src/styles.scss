@@ -1,1 +1,103 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500');
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Variabili di Colori e Temi TaskBuilder */
+@import 'vars';
+
+/* Stili dei vari componenti Kendo */
+/* TODO importare solo quelli realmente utilizzati */
+$primary: $blue;
+$accent: $blue;
+$secondary: $darkerblue;
+@import '~@progress/kendo-theme-default/scss/all';
+
+@import '~bootstrap/dist/css/bootstrap-reboot.min.css';
+@import '~bootstrap/dist/css/bootstrap-grid.min.css';
+
+/*
+    Scrollbar
+*/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(2, 119, 189, 0.3);
+    border: none;
+    border-radius: 60px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: $blue;
+    cursor: default;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: $blue;
+}
+
+::-webkit-scrollbar-track {
+    background: $background;
+    border: 0px solid $white;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: $border;
+}
+
+::-webkit-scrollbar-track:active {
+    background: $text-gray;
+}
+
+::-webkit-scrollbar-corner {
+    background: purple;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    color: $text-darker-gray;
+    background: $background;
+    overflow: hidden;
+    display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 400;
+}
+
+h2 {
+    border-bottom: 1px solid $blue;
+    margin: 50px 0 30px;
+    padding: 3px 7px;
+    font-size: 24px;
+}
+
+.k-notification {
+    padding: 15px;
+}
