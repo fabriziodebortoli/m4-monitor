@@ -1,11 +1,11 @@
 {
-    "name": "ng-pwa-basic",
+    "name": "m4-monitor",
     "version": "0.0.0",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
         "build": "ng build",
-        "build:gh": "ng build --prod --output-path docs --base-href /ng-pwa-basic/ & gulp copy",
+        "build:gh": "ng build --prod --output-path docs --base-href /m4-monitor/ & gulp copy",
         "build:firebase": "ng build --prod --output-path firebase",
         "deploy:firebase": "firebase deploy",
         "test": "ng test",

@@ -1,6 +1,6 @@
 {
-  "name": "ng-pwa-basic",
-  "short_name": "ng-pwa-basic",
+  "name": "m4-monitor",
+  "short_name": "m4-monitor",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
