@@ -13,8 +13,6 @@ environmentLoaderPromise.then(env => {
     }
     environment.logger = env.logger;
     environment.instanceKey = env.instanceKey;
-    environment.stompConfig = env.stompConfig;
-    if (!environment.stompConfig) console.error('Stomp disabled');
 
     platformBrowserDynamic()
         .bootstrapModule(AppModule)
