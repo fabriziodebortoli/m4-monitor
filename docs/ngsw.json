@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "index": "/ng-pwa-basic/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/ng-pwa-basic/es2015-polyfills.41976a8133a2445ac0d9.js",
+        "/ng-pwa-basic/favicon.ico",
+        "/ng-pwa-basic/index.html",
+        "/ng-pwa-basic/main.0003c44baccc96015f3a.js",
+        "/ng-pwa-basic/polyfills.f1a86b50434b1a515c5a.js",
+        "/ng-pwa-basic/runtime.b57bf819d5bdce77f1c7.js",
+        "/ng-pwa-basic/styles.4e8431387e742b9be912.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/ng-pwa-basic/assets/.gitignore",
+        "/ng-pwa-basic/assets/environment.json",
+        "/ng-pwa-basic/assets/environment.json.example",
+        "/ng-pwa-basic/assets/icons/icon-128x128.png",
+        "/ng-pwa-basic/assets/icons/icon-144x144.png",
+        "/ng-pwa-basic/assets/icons/icon-152x152.png",
+        "/ng-pwa-basic/assets/icons/icon-192x192.png",
+        "/ng-pwa-basic/assets/icons/icon-384x384.png",
+        "/ng-pwa-basic/assets/icons/icon-512x512.png",
+        "/ng-pwa-basic/assets/icons/icon-72x72.png",
+        "/ng-pwa-basic/assets/icons/icon-96x96.png",
+        "/ng-pwa-basic/assets/images/LogoMagoNetSmall.png",
+        "/ng-pwa-basic/assets/images/LogoTBSSmall.png",
+        "/ng-pwa-basic/assets/images/avatar.png",
+        "/ng-pwa-basic/assets/images/favicon-16x16.png",
+        "/ng-pwa-basic/assets/images/favicon-32x32.png",
+        "/ng-pwa-basic/assets/images/favicon-96x96.png",
+        "/ng-pwa-basic/assets/images/logo-trasp.png",
+        "/ng-pwa-basic/assets/images/logo-trasp_100.png",
+        "/ng-pwa-basic/assets/images/logoM4_h40.png",
+        "/ng-pwa-basic/assets/images/logoM4_h40_black.png",
+        "/ng-pwa-basic/assets/images/logoM4_w160.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/ng-pwa-basic/assets/.gitignore": "5066dab3db88bb83210bf18ac1b1d937471eed53",
+    "/ng-pwa-basic/assets/environment.json": "1b2f11ff42c00d248709dc0633a9cdaf11eb2ec2",
+    "/ng-pwa-basic/assets/environment.json.example": "01e10f114081176ca125a03b49a7353d3f90b2a5",
+    "/ng-pwa-basic/assets/icons/icon-128x128.png": "99879936cd0c4081787168341a84eec730ac75ab",
+    "/ng-pwa-basic/assets/icons/icon-144x144.png": "0797d03340095214e4e37826cd57a3875c7406c8",
+    "/ng-pwa-basic/assets/icons/icon-152x152.png": "b5f703d10e24fcda675c2403b88d4e58ec5955df",
+    "/ng-pwa-basic/assets/icons/icon-192x192.png": "ad3cebd3508b1b80fc94d7c2f8f2ffbfc9d8b2cd",
+    "/ng-pwa-basic/assets/icons/icon-384x384.png": "2c3e5d48d65c853a55d2cdea88df5145cb6c40ba",
+    "/ng-pwa-basic/assets/icons/icon-512x512.png": "ed233c5d1dc7621df63715633fc0ad1309288bf2",
+    "/ng-pwa-basic/assets/icons/icon-72x72.png": "c740c0982ef7e4e13bdb42cba1770440d67cecf9",
+    "/ng-pwa-basic/assets/icons/icon-96x96.png": "1f99b133083c67d5a62ff4136728009f8afa76c1",
+    "/ng-pwa-basic/assets/images/LogoMagoNetSmall.png": "b89a6f453a2deb51cdef8df99e49df20e1ee5b74",
+    "/ng-pwa-basic/assets/images/LogoTBSSmall.png": "f17843859c4bf6f439ebca3cd8da5a664390964b",
+    "/ng-pwa-basic/assets/images/avatar.png": "19b5733921e08ce0ff21b0e2b89a548b4b6f749c",
+    "/ng-pwa-basic/assets/images/favicon-16x16.png": "67c457e6b487cad081ef22806e189021603aecf0",
+    "/ng-pwa-basic/assets/images/favicon-32x32.png": "a3bd39a5dae47ff96ab902a46d298c1a7c397568",
+    "/ng-pwa-basic/assets/images/favicon-96x96.png": "bbc41a82b26a1c2e0236ddf1386785e11014c280",
+    "/ng-pwa-basic/assets/images/logo-trasp.png": "f18ae61fff7d0b624d2f3457f32b3e76e70ce032",
+    "/ng-pwa-basic/assets/images/logo-trasp_100.png": "6e87ad5d5a356fda6f4978a1f85d9136914da6fa",
+    "/ng-pwa-basic/assets/images/logoM4_h40.png": "519cb5c3555c54e502a6e7b1f365099632dc22bc",
+    "/ng-pwa-basic/assets/images/logoM4_h40_black.png": "b62c1a3af3692af4360aea4c235a66fa19ca20ee",
+    "/ng-pwa-basic/assets/images/logoM4_w160.png": "3692032a0aa4bdee72711893f9172e364fbc4861",
+    "/ng-pwa-basic/es2015-polyfills.41976a8133a2445ac0d9.js": "2f388121100fc23553ef172f4227276f96b7a97c",
+    "/ng-pwa-basic/favicon.ico": "8740be33032a9fb50b97b1f00a0e3313ac189dad",
+    "/ng-pwa-basic/index.html": "211f194f71dc39854663ff400be57accd567d5e5",
+    "/ng-pwa-basic/main.0003c44baccc96015f3a.js": "c4c3c432f231135271e4e8f948cc2f88cc264067",
+    "/ng-pwa-basic/polyfills.f1a86b50434b1a515c5a.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "/ng-pwa-basic/runtime.b57bf819d5bdce77f1c7.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/ng-pwa-basic/styles.4e8431387e742b9be912.css": "f450a29dd3e26ee93d94169cf53d2cb4d54018de"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

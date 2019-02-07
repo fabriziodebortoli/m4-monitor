@@ -1,0 +1,19 @@
+// Copiare questo file e rinominarlo in environment.json per avere una configurazione custom in sviluppo
+
+{
+  "instanceKey": "I-41E07E",
+  "logger": {
+    "url": "https://gwam.mago.cloud/logger/"
+  },
+  "stompConfig": {
+      "url": "ws://127.0.0.1:15674/ws",
+      "headers": {
+          "login": "guest",
+          "passcode": "guest"
+      },
+      "heartbeat_in": 0,
+      "heartbeat_out": 20000,
+      "reconnect_delay": 5000,
+      "debug": true
+  }
+}
